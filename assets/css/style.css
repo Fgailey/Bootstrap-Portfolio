@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/background.png)
 }
 
 h1, h2, h3, h4, h5 .h1 {
@@ -20,7 +21,21 @@ img {
     background-color: #4aaaa5;
 }
 
+#header-color {
+    color: #4aaaa5;
+}
+
 #sticky-footer {
     background-color: #666666;
     border-top: 3px solid #4aaaa5;
+  }
+
+  nav {
+      font-size: 12px;
+  }
+
+  @media screen and (min-width: 1100px) {
+      .container {
+          max-width: 960px;
+      }
   }
